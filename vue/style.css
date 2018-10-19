@@ -1,0 +1,153 @@
+@CHARSET "ISO-8859-1";
+
+/* ------------- Body ------------------------ */
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align: center;
+	background: #ffffff;
+	background-attachment:fixed;
+	color:#000000;
+	font-size:12px;
+}
+
+h1, h2, h3, h4 
+	{
+	margin: 0;
+	padding: 0;
+	color:#6d6d6d;
+	}
+
+h1	{
+	font-size: 28px;
+	}
+
+h2	{
+	font-size: 24px;
+	padding-bottom:10px;
+	}
+
+h3	{
+	font-size: 20px;
+	padding:0 0 5px 0;
+	}
+
+h4	{
+	font-size: 15px;
+	padding:0 0 5px 0;
+	}
+
+h5	{
+	font-size: 12px;
+	padding:0;
+	clear:both;
+	}
+
+a, a:visited 
+	{
+	text-decoration: none;
+	color: #000000;
+	}
+
+ a:hover  
+ 	{
+	color: #00ff40;
+	text-decoration: underline;
+	}
+
+	/* ------------- Site ------------------------ */
+#site{
+	width: 1010px;
+	margin: auto;
+	padding: 0px;
+	height: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #6d6d6d;
+    border-radius: 10px;
+    background-color:#ffffff;
+	}	
+	
+	
+	/* ------------- En tête ------------------------ */
+#bandeau {
+	width: 100%;
+	height: 140px;
+	padding: 10px 0px 10px 0px;
+	border-bottom: 1px solid #6d6d6d;
+	}
+
+/* ------------- centre ------------------------ */
+#centre {
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	height: auto;
+	clear : both;
+	}	
+
+/* ------------- contenu ------------------------ */
+#contenu {
+	float: left;
+	width: 860px;
+	}	
+
+/* --------------------Menus gauche dans le centre------------------------*/
+.menug {
+	float: left;
+	width: 150px;
+	}
+	
+
+	
+	
+	/* ------------- pied de page ------------------------ */
+#pied {
+	border-top: 1px solid #6d6d6d;
+	width: 100%;
+	padding: 10px 0px 10px 0px;
+	clear : both;
+	}	
+
+	/* ------------- boutons ------------------------ */
+
+.bouton1 {
+	width:120px;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	horizontal-align:bottom;
+	color:#000000;
+	background: linear-gradient(to bottom, #6d6d6d 5%, #cacaca 100%);
+	display:inline-block;
+	margin:2px;
+	border-radius:4px;
+	position : relative;
+	top : 120px;
+		
+}
+
+.bouton1:hover {
+	background:linear-gradient(to bottom, #999999 5%, #333333 100%);
+}
+
+.bouton2 {
+	width:120px;
+	line-height:20px;
+	text-align:center;
+	vertical-align:middle;
+	color:#000000;
+	background: linear-gradient(to bottom, #6d6d6d 5%, #cacaca 100%);
+	display:block;
+	margin:2px;
+	border-radius:4px;	
+}
+
+.bouton2:hover {
+	background:linear-gradient(to bottom, #999999 5%, #333333 100%);
+}
+
+	
